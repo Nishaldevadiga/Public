@@ -17,4 +17,4 @@ version: "3.1"
 responses:
   
   utter_help:
-    - text: "I can help you with Nike clothing products and services.\nYou can ask me things like:\n- I want to buy a hoodie\n- Show me Nike T-Shirts\n- Do you have long sleeve shirts?\n- I am looking for pants\n- What shorts are available?\n- I want to purchase Nike clothing"
+    - text: "I can help you with Nike clothing products and services.\nYou can ask me things like:\n- I want a blue hoodie for trail walking\n- Show me Nike T-Shirts\n- Do you have long sleeve shirts?\n- I am looking for pants\n- What shorts are available?\n- I want to purchase Nike clothing"

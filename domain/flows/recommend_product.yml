@@ -14,7 +14,6 @@ intents:
 
 
 slots:
-
   request_type:
     type: text
     influence_conversation: true
@@ -22,7 +21,7 @@ slots:
       - type: from_intent
         intent: recommend_nike_product
         value: "Nike clothing"
-        
+
   customer_preferences_for_product_purchase:
     type: text
     mappings:

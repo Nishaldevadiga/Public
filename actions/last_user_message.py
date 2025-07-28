@@ -27,10 +27,11 @@ class ActionLastUserMessage(Action):
         last_user_message = tracker.latest_message.get('text')
         
      
-        if "Nike clothing" in last_user_message:
+        clothing_keywords = ["hoodie", "shirt", "t-shirt", "pants", "shorts", "clothing", "jacket", "sweatshirt", "top","Nike clothing"]
+        if any(word in last_user_message.lower() for word in clothing_keywords):
             valid_request = "Nike clothing"
             print("Buy Nike clothing")
-        elif "order status" in last_user_message:
+        elif "order status" in last_user_message.lower():
             valid_request = "order status"
             print("Order Status")
         else:
