@@ -29,7 +29,7 @@ from actions.Recommender_Embeddings.utils.embeddings_utils import (
 )
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-dataset_path = "actions/Recommender_Embeddings/data/Products_Catalog-002.csv"
+dataset_path = "actions/Recommender_Embeddings/data/product_catalog_ass.csv"
 embedding_cache_path = "actions/Recommender_Embeddings/data/recommendations_embeddings_cache.pkl"
 embedding_cache = {}
 df_strings_to_embed = pd.DataFrame()
