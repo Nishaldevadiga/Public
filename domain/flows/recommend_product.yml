@@ -9,11 +9,20 @@
 
 version: "3.1"
 
-#intents:
-#  - recommend_nike_product
+intents:
+ - recommend_nike_product
 
 
 slots:
+
+  request_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_intent
+        intent: recommend_nike_product
+        value: "Nike clothing"
+        
   customer_preferences_for_product_purchase:
     type: text
     mappings:

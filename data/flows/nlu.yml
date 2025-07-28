@@ -28,3 +28,16 @@ nlu:
     - I need help
     - Could you please help?
     - How can you help me with this?
+
+- intent: recommend_nike_product
+  examples: |
+    - recommend products
+    - suggest some products
+    - I want a blue hoodie for trail walking
+    - I want to buy a hoodie
+    - Show me Nike T-Shirts
+    - Do you have long sleeve shirts?
+    - I am looking for pants
+    - What shorts are available?
+    - I want to purchase Nike clothing
+    - I want a light T-shirt for the GYM

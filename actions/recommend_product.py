@@ -19,7 +19,7 @@ from actions.Recommender_Embeddings.Recommendations_using_embedding import print
 
 import pandas as pd
 
-product_catalog_path = "actions/Recommender_Embeddings/data/Products_Catalog-002.csv"
+product_catalog_path = "actions/Recommender_Embeddings/data/product_catalog_ass.csv"
 
 class RecommendProduct(Action):
 
