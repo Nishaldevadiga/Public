@@ -23,4 +23,35 @@
     "picture": " https://i.imgur.com/qRRDZIK.jpeg",
     "picture_name": "Women's Dri-FIT Cropped Tank Top"
   }
+  ,
+   {
+    "customer_name": "steve",
+    "order_number": "9210",
+    "picture": "https://i.imgur.com/9sVO8I4.jpeg",
+    "picture_name": "normal delivery box"
+  },
+   {
+    "customer_name": "sumanth",
+    "order_number": "0129",
+    "picture": "https://i.imgur.com/q9fJL1q.jpeg",
+    "picture_name": "package damaged box"
+  },
+  {
+    "customer_name": "adarsh",
+    "order_number": "0000",
+    "picture": " https://i.imgur.com/C7qeBug.jpeg",
+    "picture_name": "Severly damaged box"
+  },
+   {
+    "customer_name": "binita",
+    "order_number": "0001",
+    "picture": " https://i.imgur.com/klBlDwT.jpeg",
+    "picture_name": "Wet package box"
+  },{
+    "customer_name": "avi",
+    "order_number": "0002",
+    "picture": "https://i.imgur.com/GXlrGHA.png",
+    "picture_name": "Wet nike box"
+  }
+  
 ]
