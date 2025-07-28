@@ -62,7 +62,7 @@ actions:
 responses:
 
   utter_recommend_product_purchase_photo:
-    - text: I found the following shoes that I would recommend based on your preferences and needs
+    - text: I found the following clothing that I would recommend based on your preferences and needs
       image: "{photo}"
 
   utter_recommend_product_purchase_name_and_number:
@@ -78,7 +78,7 @@ responses:
           title: "No, cancel order"
 
   utter_ask_customer_preferences_for_product_purchase:
-    - text: What type of shoes you are looking for? 
+    - text: What type of clothing you are looking for? 
 
   utter_ask_customer_shipping_address:
     - text: What is your shipping address? 

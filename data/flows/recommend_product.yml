@@ -10,7 +10,7 @@
 flows:
   recommend_product:
     name: recommend_product
-    description: customer wants to purchase nike shoes.
+    description: customer wants to purchase nike clothing.
     
     steps:
       - set_slots:
@@ -24,7 +24,7 @@ flows:
 
       - action: last_user_message  
         next:
-          - if:  slots.request_type matches "(?i).*Nike shoes.*"
+          - if:  slots.request_type matches "(?i).*Nike clothing.*"
             then: 
               - action: utter_I_can_help 
               - collect: customer_name
