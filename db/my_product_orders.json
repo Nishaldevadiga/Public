@@ -1,0 +1,68 @@
+[
+  {
+    "customer_name": "Ricky",
+    "order_number": "3620",
+    "picture": "https://i.imgur.com/XFu1VHz.png",
+    "picture_name": "nike-cut-refund-1"
+  },
+  {
+    "customer_name": "Mike",
+    "order_number": "4620",
+    "picture": "https://i.imgur.com/FmmJBEw.png",
+    "picture_name": "nike-cut-refund-2"
+  },
+  {
+    "customer_name": "Atef",
+    "order_number": "5620",
+    "picture": "https://i.imgur.com/eL2SWMo.jpg",
+    "picture_name": "severly-damaged-nike-box"
+  },
+  {
+    "customer_name": "Bader",
+    "order_number": "6620",
+    "picture": "https://i.imgur.com/sanYvIr.png",
+    "picture_name": "not-same-pair-nike"
+  },
+  {
+    "customer_name": "Beth",
+    "order_number": "7620",
+    "picture": "https://i.imgur.com/EZu6yHG.png",
+    "picture_name": "normal-nike-2"
+  },
+  {
+    "customer_name": "Tom",
+    "order_number": "8620",
+    "picture": "https://i.imgur.com/74ec48p.png",
+    "picture_name": "shoes-normal"
+  },
+  {
+    "customer_name": "Edward",
+    "order_number": "9620",
+    "picture": "https://i.imgur.com/li22Bv5.png",
+    "picture_name": "Air Jordan 4- defect"
+  },
+  {
+    "customer_name": "king-incostitent",
+    "order_number": "8590",
+    "picture": "https://imgur.com/a/xDSI9Vr",
+    "picture_name": "Men's Dri-FIT Versatile Tank-inconsistent-fit"
+  },
+  {
+    "customer_name": "king-normal",
+    "order_number": "9085",
+    "picture": "https://imgur.com/a/wopahZ6",
+    "picture_name": "Men's Dri-FIT Versatile Tank-normal"
+  },
+  {
+    "customer_name": "hoodie-quality",
+    "order_number": "1234",
+    "picture": "https://imgur.com/a/xSAxW8b",
+    "picture_name": "Men's Fleece Pullover Hoodie-qualityissue"
+  },
+  {
+    "customer_name": "dry-fit-tanktop",
+    "order_number": "7021",
+    "picture": " https://imgur.com/a/l42A6YU",
+    "picture_name": "Women's Dri-FIT Cropped Tank Top"
+  }
+]

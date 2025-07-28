@@ -1,0 +1,30 @@
+##########################################################################################
+##########################################################################################
+#
+#   Developed by Atef Bader,PhD
+#   Last Edit: 11/13/2024
+#
+##########################################################################################
+##########################################################################################
+
+
+version: "3.1"
+
+nlu:
+- intent: out_of_scope
+  examples: |
+    - Buy Laptop
+    - Purchase Laptop
+    - Buy Vehcile
+    - Chair
+    - Window
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+
+- intent: asked_for_help
+  examples: |
+    - help
+    - I need help
+    - Could you please help?
+    - How can you help me with this?

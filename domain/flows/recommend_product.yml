@@ -1,0 +1,109 @@
+##########################################################################################
+##########################################################################################
+#
+#   Developed by Atef Bader,PhD
+#   Last Edit: 11/13/2024
+#
+##########################################################################################
+##########################################################################################
+
+version: "3.1"
+
+#intents:
+#  - recommend_nike_product
+
+
+slots:
+  customer_preferences_for_product_purchase:
+    type: text
+    mappings:
+      - type: from_llm
+
+  product_name:
+    type: text
+    mappings:
+      - type: custom
+        action: purchase_product
+
+  product_number:
+    type: float
+    mappings:
+      - type: custom
+        action: purchase_product
+
+  photo:
+    type: text
+    mappings:
+      - type: custom
+        action: purchase_product
+
+  recommend_check_product_purchase_confirmation:
+    type: text
+    mappings:
+      - type: from_llm
+
+  customer_shipping_address:
+    type: text
+    mappings:
+      - type: from_llm
+
+  customer_payment_info:
+    type: text
+    mappings:
+      - type: from_llm
+
+
+actions:
+  - recommend_product
+  - purchase_product
+  - reset_slots
+
+
+responses:
+
+  utter_recommend_product_purchase_photo:
+    - text: I found the following shoes that I would recommend based on your preferences and needs
+      image: "{photo}"
+
+  utter_recommend_product_purchase_name_and_number:
+    - text: The product name is {product_name} and its price is {product_number} 
+
+
+  utter_ask_recommend_check_product_purchase_confirmation:
+    - text:  Would you like to purchase this product?
+      buttons:
+        - payload: "Yes, submit order"
+          title: "Yes, submit order"
+        - payload: "No, cancel order"
+          title: "No, cancel order"
+
+  utter_ask_customer_preferences_for_product_purchase:
+    - text: What type of shoes you are looking for? 
+
+  utter_ask_customer_shipping_address:
+    - text: What is your shipping address? 
+
+  utter_ask_customer_payment_info:
+    - text: Please enter your Credit Card number.
+
+
+
+  utter_recommend_product_purchase_processed:
+    - text: "All set, your purchase is processed. \n 
+            Your order number is: {purchase_order_number} \n
+            Expected delivery within 5 business days."
+
+
+  utter_recommend_check_product_purchase_cancelled:
+    - text: Okay, I am cancelling this purchase order.
+
+
+
+  utter_recommend_product_purchase_escalate_to_agent:
+    - text: We are sorry, we couldn't place the order for you. Please call 1-800-123-4567.
+
+
+  utter_using_openai_embedding:
+    - text: " Ok, we are using OpenAI/text-embedding-3-small model to find best product recommendation that  meets your preferences."
+      image: "https://i.imgur.com/OPCK1qm.png"
+
