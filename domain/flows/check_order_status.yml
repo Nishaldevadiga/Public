@@ -10,8 +10,8 @@
 
 version: "3.1"
 
-#intents:
-#  - check_order_status
+intents:
+ - check_order_status
 
 
 slots:
