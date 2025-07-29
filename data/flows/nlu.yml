@@ -41,12 +41,18 @@ nlu:
     - What shorts are available?
     - I want to purchase Nike clothing
     - I want a light T-shirt for the GYM
-    
+
 - intent: check_order_status
   examples: |
-    - I want to check the status of my order number 24620
+    - I want to check the status of my order number [27620](order_number)
+    - Check my order status for [12345](order_number)
+    - What is the status of order [9876](order_number)?
+    - Track order [5555](order_number)
+    - Where is my order [8888](order_number)?
+    - Order status for [24620](order_number)
+    - I want to check the status of my order
     - Check my order status
-    - What is the status of order 12345?
-    - Track order 9876
+    - What is the status of my order?
+    - Track my order
     - Where is my order?
-    - Order status for 24620
+    - Order status

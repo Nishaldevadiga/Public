@@ -19,7 +19,9 @@ slots:
   order_number:
     type: text
     mappings:
-      - type: from_llm
+      # - type: from_llm
+      - type: from_entity
+        entity: order_number
 
   photo:
     type: text

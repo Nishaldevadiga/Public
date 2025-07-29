@@ -55,8 +55,14 @@
   },
     {
     "customer_name": "ramesh",
-    "order_number": "0003",
+    "order_number": "27620",
     "picture": "https://i.imgur.com/1rQzzRK.jpeg",
     "picture_name": "nike_double_logo"
+  },
+     {
+    "customer_name": "pushpa",
+    "order_number": "24620",
+    "picture": "https://i.imgur.com/uCpGZRy.png",
+    "picture_name": "nike_cut"
   }
 ]
